@@ -15,6 +15,7 @@
         <div class="row h-100 justify-content-center align-items-center">
             <div class="col-md-4 rounded p-4">
                 <h1 class="p-3">LoginApp</h1>
+        
                 <form action="/login" method="post">
                     <div class="form-group">
                         <label for="email">Email</label>
@@ -29,6 +30,9 @@
                         <a class="btn btn-outline-danger" href="/register">Register</a>
                     </div>
                 </form>
+                <% if(messages.error) {%>
+                    <%= messages.error %>
+                <% } %> 
             </div>
         </div>
     </div>
