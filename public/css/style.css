@@ -3,4 +3,16 @@ body{
     margin: 0%;
     box-sizing: border-box;
     height: 100vh;
+    background-image: url('../assets/LoginBackground.jpg');
+    background-size: cover;
+}
+.container-fluid{
+    background-color: #ffffff40;
+}
+.container-fluid .col-md-4{
+    background-color: #ffffff80;
+}
+input{
+    background-color: transparent !important;
+    border-color: black !important;
 }
