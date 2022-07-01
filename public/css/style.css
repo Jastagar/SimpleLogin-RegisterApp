@@ -3,7 +3,7 @@ body{
     margin: 0%;
     box-sizing: border-box;
     height: 100vh;
-    background-image: url('../assets/LoginBackground.jpg');
+    background-image: url('../assets/LoginBackgroundOptmised.jpg');
     background-size: cover;
 }
 .container-fluid{
